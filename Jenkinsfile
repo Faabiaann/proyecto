@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         IMAGE = "www"
-        SSH_USER = 'ec2-user' // Reemplaza con el nombre de usuario correcto
-        SSH_HOST = 'ec2-54-234-95-127.compute-1.amazonaws.com' // Reemplaza con la IP o el hostname de la instancia de aplicación
+        SSH_USER = 'ec2-user'
+        SSH_HOST = 'ec2-54-234-95-127.compute-1.amazonaws.com'
     }
 
     stages {
@@ -17,7 +17,6 @@ pipeline {
         stage('Construir imagen') {
             steps {
                 script {
-                    // Construye la imagen
                     docker.build(IMAGE, '-f Dockerfile .')
                 }
             }

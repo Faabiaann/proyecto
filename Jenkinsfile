@@ -1,6 +1,5 @@
 pipeline {
     agent any
-
     environment {
         IMAGE = "www"
         SSH_USER = 'ec2-user'

@@ -58,7 +58,7 @@ $users = readUsers($conn);
 <body>
     <div class="container mt-5">
         <div class="text-center alert alert-success mt-2">
-            <?php echo "Fabían Hermosilla - Gestión de Proyectos de Software"; ?>
+            <?php echo "Fabían Hermosilla - Gestión de Proyectos de Software - DevOps"; ?>
         </div>
 
         <!-- Tabla de usuarios -->

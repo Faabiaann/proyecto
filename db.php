@@ -1,5 +1,5 @@
 <?php
-$host = 'db';
+$host = 'ec2-54-234-95-127.compute-1.amazonaws.com';
 $user = 'root';
 $password = '123456';
 $dbname = 'proyecto';

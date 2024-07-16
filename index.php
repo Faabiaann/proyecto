@@ -64,7 +64,7 @@ $users = readUsers($conn);
         <!-- Tabla de usuarios -->
         <div class="row mt-2 mb-3">
             <div class="col">
-                <h3>Lista Usuarios</h3>
+                <h3>Lista de Usuarios</h3>
             </div>
             <div class="col text-end">
                 <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#createModal">Crear Usuario</button>
